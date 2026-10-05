@@ -11,6 +11,7 @@
 	<haxelib name="lime" />
 	<haxelib name="openfl" />
 	<haxelib name="flixel" />
+	<haxelib name="hxcpp" />
 	
 	<assets path="assets" rename="assets" embed="false" />
 	
