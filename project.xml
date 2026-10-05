@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="BrenadasEngine App" package="com.brenadas.engine" version="1.0.0" company="Brenadas" />
+	
+	<app main="Main" path="export" file="BrenadasEngine" />
+	
+	<window width="1280" height="720" fps="60" background="#111111" hardware="true" vsync="true" resizable="true" />
+	
+	<source path="source" />
+	
+	<haxelib name="lime" />
+	<haxelib name="openfl" />
+	
+	<assets path="assets" rename="assets" embed="false" />
+	
+	<haxeflag name="-dce full" />
+</project>
